@@ -33,9 +33,6 @@ experience:
   - Title: Continous Improvement Engineer/Production Manager
     Organization: Oldcastle Building Envelope
     Time Period: Jan 2016 - Oct 2017
-  - Title: Mechanical Design Engineer
-    Organization: Unity Manufacturing Inc
-    Time Period: Aug 2015 - Jan 2016
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
