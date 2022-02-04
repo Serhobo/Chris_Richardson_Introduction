@@ -23,16 +23,16 @@ interests:
 
 # Education to show in About widget
 experience:
-  Jobs:
-  - Title: RSM Engineer
-    Organization: Abbott Laboratories
-    Time Period: Sep 2019 - Present
-  - Title: IT Manager
-    Organization: Oldcastle Building Envelope
-    Time Period: Jun 2016 - Oct 2017
-  - Title: Continous Improvement Engineer/Production Manager
-    Organization: Oldcastle Building Envelope
-    Time Period: Jan 2016 - Oct 2017
+  courses:
+  - course: MS in Computer Science Engineering in Data Management and Data Security
+    institution: University of Texas at Arlington
+    year: Sep 2019 - Present
+  - course: BS in Mechanical Engineering w/ Specialization in Engineering Management
+    institution: Southern Methodist University
+    year: Aug 2010 - May 2015
+  - course: Minor in Physics
+    institution: Southern Methodist University
+    year: Aug 2010 - May 2015
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
