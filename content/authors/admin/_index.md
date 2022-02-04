@@ -69,4 +69,4 @@ highlight_name: true
 Chris Richardson is an associate engineer of Restrictive Substances and Materials at Abbott Laboratories in Irving, Tx. He is currently attending Univesity of Texas at Arlington to obtain a Master's in Computers Science, thereby expanding on his BS in Mechanical Engineering from Southern Methodity University.
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
