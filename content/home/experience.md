@@ -25,7 +25,7 @@ experience:
   - title: Restrictive Substances and Materials Engineer
     company: Abbott Laboratories
     company_url: 'https://www.abbott.com/'
-    company_logo: org-AL
+    company_logo: org-X
     location: Irving, TX
     date_start: '2019-09-03'
     date_end: ''
@@ -39,25 +39,21 @@ experience:
   - title: IT Manager
     company: Oldcastle Building Envelope
     company_url: ''
-    company_logo: org-OBE
+    company_logo: org-X
     location: Grand Prairie, TX
     date_start: '2016-06-15'
     date_end: '2017-10-31'
     description: |2-    
     • Managed all Tier 1 IT support for the two adjacent facilities, glass and aluminum, which included 40 computers and 17 networked pieces of machinery
-    • Wired up the new switches to support the new plant expansion
-    • Ran Cat5e cabling for ethernet ports to establish new workstations
     • On-call during all production hours to ensure that the networked machinery were operating as intended, using Ultra VNC or Teamviewer to solve minor issues or coming to the site for network issues
     • Established a shared server for fabrication machines to have read access to design programs to cut downtime between programming and making a customized units
     • Established a comment system in AS400 for production units that allowed plant wide communication between first and second shift
-    • Created new users on AS400 for all plant floor leads and educated them on its use based on their permissions
-    • Established by-the-second metrics to track the productivity of all workstations in the plant 
-    • Networked printers at all workstations to allow for printing of schematics from the front office to the workstation that needed it
+    • Established by-the-second metrics to track the productivity of all workstations in the plants
     
   - title: Continuous Improvement Engineer/Production Manager
     company: Oldcastle Building Envelope
     company_url: ''
-    company_logo: org-OBE
+    company_logo: org-X
     location: Grand Prairie, TX
     date_start: '2016-01-20'
     date_end: '2017-10-31'
@@ -75,7 +71,7 @@ experience:
   - title: Mechanical Design Engineer
     company: Unity Manufaccturing Inc
     company_url: ''
-    company_logo: org-UM
+    company_logo: org-X
     location: Grand Prairie, TX
     date_start: '2015-09-10'
     date_end: '2016-01-18'
