@@ -22,7 +22,7 @@ interests:
 - Information Security
 
 # Education to show in About widget
-experience:
+education:
   courses:
   - course: MS in Computer Science Engineering in Data Management and Data Security
     institution: University of Texas at Arlington
