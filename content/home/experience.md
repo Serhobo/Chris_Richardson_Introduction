@@ -43,7 +43,7 @@ experience:
     location: Grand Prairie, TX
     date_start: '2016-06-15'
     date_end: '2017-10-31'
-    description:     
+    description: |2-    
     • Managed all Tier 1 IT support for the two adjacent facilities, glass and aluminum, which included 40 computers and 17 networked pieces of machinery
     • Wired up the new switches to support the new plant expansion
     • Ran Cat5e cabling for ethernet ports to establish new workstations
@@ -61,7 +61,7 @@ experience:
     location: Grand Prairie, TX
     date_start: '2016-01-20'
     date_end: '2017-10-31'
-    description:     
+    description: |2-    
     • Designed and implemented plant-wide process improvements, 5S programs, training programs, and product velocity/flow systems
     • Designed the layout for all storage locations and product holding locations in the plant
     • Reconstructed the Boxing, Shipping and Receiving, Sample, and Will Call Departments from the ground up so they could met the increased demand of a plant expansion from 55,000 sq.ft. to 160,000 sq.ft.
@@ -79,7 +79,7 @@ experience:
     location: Grand Prairie, TX
     date_start: '2015-09-10'
     date_end: '2016-01-18'
-    description:     
+    description: |2-    
     • Developed and tested redesigns for high volume company catalog items and parts for in house use, resulting in 70% reduction in assembly time and 80% more storage capacity in the warehouse
     • Worked primarily with engineering software suites: SolidWorks 2016, DriveWorks, and eDPM 
     • Lead in a lean manufacturing project to ensure production time efficiency and quality benchmarks
@@ -87,5 +87,5 @@ experience:
 
 
 design:
-  columns: '4'
+  columns: '2'
 ---
