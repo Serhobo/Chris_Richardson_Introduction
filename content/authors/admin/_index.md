@@ -26,13 +26,13 @@ experience:
   courses:
   - course: MS in Computer Science Engineering in Data Management and Data Security
     institution: University of Texas at Arlington
-    year: Sep 2019 - Present
+    year: 2024
   - course: BS in Mechanical Engineering w/ Specialization in Engineering Management
     institution: Southern Methodist University
-    year: Aug 2010 - May 2015
+    year: 2015
   - course: Minor in Physics
     institution: Southern Methodist University
-    year: Aug 2010 - May 2015
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
