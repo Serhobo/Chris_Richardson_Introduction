@@ -14,7 +14,7 @@ organizations:
   url: https://www.uta.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I have spent many years traveling back and forth from Mechanical Design Engineer, to Continuous Improvement Engineer, and into Production Management. I have found my way back to Materials and Processes Engineer, while on my way to finishing my Master's in Data Management and Data Security.
 
 # Interests to show in About widget
 interests:
@@ -22,17 +22,26 @@ interests:
 - Information Security
 
 # Education to show in About widget
-education:
-  courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+Experience:
+  Jobs:
+  - Title: RSM Engineer
+    Organization: Abbott Laboratories
+    Time Period: Sep 2019 - Present
+  - Title: IT Manager
+    Organization: Oldcastle Building Envelope
+    Time Period: Jun 2016 - Oct 2017
+  - Title: Continous Improvement Engineer/Production Manager
+    Organization: Oldcastle Building Envelope
+    Time Period: Jan 2016 - Oct 2017
+  - Title: Mechanical Design Engineer
+    Organization: Unity Manufacturing Inc
+    Time Period: Aug 2015 - Jan 2016
+  - Title: Mechanical Engineering Intern
+    Organization: Telect Inc.
+    Time Period: May 2013 - Aug 2013
+  - Title: Mechanical Engineering Intern
+    Organization: Ericsson
+    Time Period: Jan 2012 - May 2012
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -41,19 +50,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: mailto:crichardsonobe@gmail.com'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/C_Rich47
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/Serhobo
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/chris-richardson-b91888230/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -69,8 +75,7 @@ email: ""
 highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Chris Richardson is an associate engineer of Restrictive Substances and Materials at Abbott Laboratories in Irving, Tx. He is currently attending Univesity of Texas at Arlington to obtain a Master's in Computers Science, thereby expanding on his BS in Mechanical Engineering from Southern Methodity University.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
