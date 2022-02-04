@@ -22,7 +22,7 @@ interests:
 - Information Security
 
 # Education to show in About widget
-Experience:
+experience:
   Jobs:
   - Title: RSM Engineer
     Organization: Abbott Laboratories
@@ -36,12 +36,6 @@ Experience:
   - Title: Mechanical Design Engineer
     Organization: Unity Manufacturing Inc
     Time Period: Aug 2015 - Jan 2016
-  - Title: Mechanical Engineering Intern
-    Organization: Telect Inc.
-    Time Period: May 2013 - Aug 2013
-  - Title: Mechanical Engineering Intern
-    Organization: Ericsson
-    Time Period: Jan 2012 - May 2012
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
