@@ -22,11 +22,11 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Restrictive Substances and Materials Engineer
-    company: Abbott Laboratories
+  - title: 'Restrictive Substances and Materials Engineer'
+    company: 'Abbott Laboratories'
     company_url: 'https://www.abbott.com/'
     company_logo: org-X
-    location: Irving, TX
+    location: 'Irving, TX'
     date_start: '2019-09-03'
     date_end: ''
     description: |>-
@@ -36,11 +36,11 @@ experience:
         * Modelling
         * Deploying
         
-  - title: IT Manager
-    company: Oldcastle Building Envelope
+  - title: 'IT Manager'
+    company: 'Oldcastle Building Envelope'
     company_url: ''
     company_logo: org-X
-    location: Grand Prairie, TX
+    location: 'Grand Prairie, TX'
     date_start: '2016-06-15'
     date_end: '2017-10-31'
     description: |>-    
@@ -50,11 +50,11 @@ experience:
     • Established a comment system in AS400 for production units that allowed plant wide communication between first and second shift
     • Established by-the-second metrics to track the productivity of all workstations in the plants
     
-  - title: Continuous Improvement Engineer/Production Manager
-    company: Oldcastle Building Envelope
+  - title: 'Continuous Improvement Engineer/Production Manager'
+    company: 'Oldcastle Building Envelope'
     company_url: ''
     company_logo: org-X
-    location: Grand Prairie, TX
+    location: 'Grand Prairie, TX'
     date_start: '2016-01-20'
     date_end: '2017-10-31'
     description: |>-    
@@ -68,11 +68,11 @@ experience:
     • Spearheaded an initiative to streamline sample process to increase overall sales totals
     • Performed daily quality control tests on all production lines and storage units
     
-  - title: Mechanical Design Engineer
-    company: Unity Manufaccturing Inc
+  - title: 'Mechanical Design Engineer'
+    company: 'Unity Manufaccturing Inc'
     company_url: ''
     company_logo: org-X
-    location: Grand Prairie, TX
+    location: 'Grand Prairie, TX'
     date_start: '2015-09-10'
     date_end: '2016-01-18'
     description: |>-    
