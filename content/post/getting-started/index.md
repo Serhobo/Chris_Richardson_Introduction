@@ -1,24 +1,24 @@
 ---
-title: Welcome to Wowchemy, the website builder for Hugo
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+title: Welcome to my Home Page, This is my First Kaggle Contribution.
+subtitle: Please see the below link to my first contribution to a Kaggle Compettion. I was able to achieve a higher accurracy by adding and removing previously used data. Take a look for yourself!
 
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: Please see the below link to my first contribution to a Kaggle Compettion. I was able to achieve a higher accurracy by adding and removing previously used data. Take a look for yourself!
 
 # Link this post with a project
 projects: []
 
 # Date published
-date: "2020-12-13T00:00:00Z"
+date: "2022-2-25T10:54:00Z"
 
 # Date updated
-lastmod: "2020-12-13T00:00:00Z"
+lastmod: "2022-2-25T10:54:00Z"
 
 # Is this an unpublished draft?
 draft: false
 
 # Show this page in the Featured widget?
-featured: false
+featured: true
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
