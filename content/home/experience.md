@@ -43,6 +43,7 @@ experience:
     date_start: '2016-01-20'
     date_end: '2017-10-31'
     description: >-
+        Responsibilities include:
         * Managed all Tier 1 IT support for the two adjacent facilities, glass and aluminum, which included 40 computers and 17 networked pieces of machinery
         * On-call during all production hours to ensure that the networked machinery were operating as intended, using Ultra VNC or Teamviewer to solve minor issues or coming to the site for network issues
         * Established a shared server for fabrication machines to have read access to design programs to cut downtime between programming and making a customized units
