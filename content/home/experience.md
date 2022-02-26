@@ -36,16 +36,15 @@ experience:
         * Material Compliance Engineering
         * RoHS and REACH Subject Matter Exep
         
-  - title: 'IT Manager, Continuous Improvement Engineer, Production Manager'
-    company: 'Oldcastle Building Envelope'
+  - title: Professor of Semiconductor Physics
+    company: University X
     company_url: ''
-    company_logo: org-X
-    location: Texas
-    date_start: '2016-01-20'
-    date_end: '2017-10-31'
+    company_logo: org-x
+    location: California
+    date_start: '2016-01-01'
+    date_end: '2020-12-31'
     description: Taught electronic engineering and researched semiconductor physics.
 
 design:
   columns: '2'
-
 ---
