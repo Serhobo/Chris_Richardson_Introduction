@@ -40,7 +40,7 @@ experience:
     company: 'Oldcastle Building Envelope'
     company_url: ''
     company_logo: org-X
-    location: Grand Prairie
+    location: Texas
     date_start: '2016-01-20'
     date_end: '2017-10-31'
     description: Taught electronic engineering and researched semiconductor physics.
