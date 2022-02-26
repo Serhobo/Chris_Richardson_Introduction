@@ -35,7 +35,7 @@ experience:
         * Modelling
         * Deploying
         
-  - title: 'IT Manager, Continuous Improvement Engineer, Production Manager
+  - title: 'IT Manager, Continuous Improvement Engineer, Production Manager'
     company: 'Oldcastle Building Envelope'
     company_url: ''
     company_logo: org-X
