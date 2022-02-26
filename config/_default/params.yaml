@@ -21,7 +21,7 @@ twitter: ''
 # Contact (edit or remove options as required)
 
 email: crichardsonobe@gmail.com
-phone: error check
+phone: Email for Information
 address:
   street: See resume
   city: See resume
@@ -30,8 +30,8 @@ address:
   country:  See resume
   country_code: See resume
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
+  latitude: '50.450001'
+  longitude: '30.523333'
 
 office_hours:
   - 'Monday 10:00 to 13:00'
