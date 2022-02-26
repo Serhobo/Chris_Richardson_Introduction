@@ -32,12 +32,12 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Design_Planningle
+        * Design_Planning
         * RoHS_&_REACH_SME
         * Yellow_Belt_Trained
         
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: C.I. Engineer, Production Manager, & IT Manager
+    company: Oldcastle Building Envelope
     company_url: ''
     company_logo: org-x
     location: California
