@@ -40,9 +40,9 @@ experience:
     company: Oldcastle Building Envelope
     company_url: ''
     company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
+    location: Texas
+    date_start: '2016-01-26'
+    date_end: '2017-10-31'
     description:  |2-
         Responsibilities include:
         
