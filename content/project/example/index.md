@@ -2,7 +2,7 @@
 title: Titanic Prediction Project
 summary: First ML Program.
 tags:
-- Deep Learning
+- School
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
