@@ -26,7 +26,7 @@ experience:
     company: 'Abbott Laboratories'
     company_url: 'https://www.abbott.com/'
     company_logo: org-X
-    location: 'Irving, TX'
+    location: Irving
     date_start: '2019-09-03'
     date_end: ''
     description: >-
@@ -39,7 +39,7 @@ experience:
     company: 'Oldcastle Building Envelope'
     company_url: ''
     company_logo: org-X
-    location: 'Grand Prairie, TX'
+    location: Grand Prairie
     date_start: '2016-06-15'
     date_end: '2017-10-31'
     description: >-
@@ -53,7 +53,7 @@ experience:
     company: 'Oldcastle Building Envelope'
     company_url: ''
     company_logo: org-X
-    location: 'Grand Prairie, TX'
+    location: Grand Prairie
     date_start: '2016-01-20'
     date_end: '2017-10-31'
     description: >-    
@@ -71,7 +71,7 @@ experience:
     company: 'Unity Manufaccturing Inc'
     company_url: ''
     company_logo: org-X
-    location: 'Grand Prairie, TX'
+    location: Garland
     date_start: '2015-09-10'
     date_end: '2016-01-18'
     description: >-    
