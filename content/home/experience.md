@@ -22,8 +22,8 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: 'Restrictive Substances and Materials Engineer'
-    company: 'Abbott Laboratories'
+  - title: Restrictive Substances and Materials Engineer
+    company: Abbott Laboratories
     company_url: 'https://www.abbott.com/'
     company_logo: org-X
     location: Irving
