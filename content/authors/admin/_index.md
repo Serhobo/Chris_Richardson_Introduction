@@ -1,38 +1,39 @@
 ---
 # Display name
-title: Chris Richardson
+title: Nelson Bighetti
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Restrictive Substances and Materials Engineer
+role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: University of Texas at Arlington
-  url: https://www.uta.edu/
+- name: Stanford University
+  url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I have spent many years traveling back and forth from Mechanical Design Engineer, to Continuous Improvement Engineer, and into Production Management. I have found my way back to Materials and Processes Engineer, while on my way to finishing my Master's in Data Management and Data Security.
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-- Data Management
-- Information Security
+- Artificial Intelligence
+- Computational Linguistics
+- Information Retrieval
 
 # Education to show in About widget
 education:
   courses:
-  - course: MS in Computer Science Engineering in Data Management and Data Security
-    institution: University of Texas at Arlington
-    year: 2024
-  - course: BS in Mechanical Engineering w/ Specialization in Engineering Management
-    institution: Southern Methodist University
-    year: 2015
-  - course: Minor in Physics
-    institution: Southern Methodist University
-    year: 2015
+  - course: PhD in Artificial Intelligence
+    institution: Stanford University
+    year: 2012
+  - course: MEng in Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    year: 2009
+  - course: BSc in Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -41,23 +42,26 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:crichardsonobe@gmail.com'
+  link: '/#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/C_Rich47
+  link: https://twitter.com/GeorgeCushen
+- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: fas
+  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/Serhobo
+  link: https://github.com/gcushen
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/chris-richardson-b91888230/
+  link: https://www.linkedin.com/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
- - icon: cv
-   icon_pack: ai
-   link: uploads/resume.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -66,7 +70,8 @@ email: ""
 highlight_name: true
 ---
 
-Chris Richardson is an associate engineer of Restrictive Substances and Materials at Abbott Laboratories in Irving, Tx. He is currently attending Univesity of Texas at Arlington to obtain a Master's in Computers Science, thereby expanding on his BS in Mechanical Engineering from Southern Methodity University.
+Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
