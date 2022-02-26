@@ -22,19 +22,19 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Restrictive Substances and Materials Engineer
-    company: Abbott Laboratories
-    company_url: 'https://www.abbott.com/'
-    company_logo: org-X
-    location: Irving
-    date_start: '2019-09-03'
+  - title: CEO
+    company: GenCoin
+    company_url: ''
+    company_logo: org-gc
+    location: California
+    date_start: '2021-01-01'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Design Planning
-        * Material Compliance Engineering
-        * RoHS and REACH Subject Matter Exep
+        * Analysing
+        * Modelling
+        * Deploying
         
   - title: Professor of Semiconductor Physics
     company: University X
