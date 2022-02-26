@@ -23,7 +23,7 @@ featured: true
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: 'Image credit: [**Unsplash**](https://upload.wikimedia.org/wikipedia/commons/6/6e/St%C3%B6wer_Titanic.jpg)'
   focal_point: ""
   placement: 2
   preview_only: false
@@ -49,7 +49,7 @@ https://github.com/Serhobo/Project-Preliminary
 
 ## Contributions
 
-I changed a thing.
+I tested adding and swapping out the variables originally used within the creation of the decision trees. Additionally, I tested various random states, as well as number of estimators and depth of decision trees. I found that swapping out SibSp for Embarked, and noticed a flat increase of over 3% its accuracy. Due to the incompleteness of several of the variables included in the training data, the inclusion of some attributes were limited due to the nature of the competition and my shortcomings in my knowledge. Both of these are appropriates areas of improvement.
 
 
 
