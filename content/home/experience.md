@@ -27,14 +27,14 @@ experience:
     company_url: ''
     company_logo: org-gc
     location: Texas
-    date_start: '2021-01-01'
+    date_start: '2018-09-10'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Design_Planningle
+        * RoHS_&_REACH_SME
+        * Yellow_Belt_Trained
         
   - title: Professor of Semiconductor Physics
     company: University X
