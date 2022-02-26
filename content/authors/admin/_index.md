@@ -14,7 +14,7 @@ organizations:
   url: https://www.uta.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My Work interests include distributed robotics, mobile computing and programmable matter.
+bio: I am a Dad, an Mechanical Engineer and Computer Science Engineer Hybrid, and a gamer. There's not enough time in any singluar day, but that is why you make the most of each.
 
 # Interests to show in About widget
 interests:
@@ -42,7 +42,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: "mailto:crichardsonobe@gmail.com"
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/CRich47
