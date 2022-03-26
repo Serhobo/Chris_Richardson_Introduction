@@ -23,7 +23,7 @@ featured: true
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://storage.googleapis.com/kaggle-datasets-images/8782/12270/c3af536d14e386a2bfd356d1cd84b67e/dataset-cover.jpg?t=2018-01-06-14-10-54)'
+  caption: 'Image credit: [**Kaggle Datasets**](https://storage.googleapis.com/kaggle-datasets-images/8782/12270/c3af536d14e386a2bfd356d1cd84b67e/dataset-cover.jpg?t=2018-01-06-14-10-54)'
   focal_point: ""
   placement: 2
   preview_only: false
@@ -47,6 +47,8 @@ https://github.com/Serhobo/Project-Preliminary
 
 
 ## Contributions
+
+Lorem Ipsum
 
 I tested adding and swapping out the variables originally used within the creation of the decision trees. Additionally, I tested various random states, as well as number of estimators and depth of decision trees. I found that swapping out SibSp for Embarked, and noticed a flat increase of over 4% on its accuracy. Due to the incompleteness of several of the variables included in the training data, the inclusion of some attributes were limited due to the nature of the competition and my shortcomings in my knowledge. Both of these are appropriates areas of improvement.
 
