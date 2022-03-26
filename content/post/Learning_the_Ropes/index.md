@@ -6,7 +6,7 @@ subtitle: Please see the below link to my second contribution to a Kaggle Compet
 summary: Please see the below link to my second contribution to a Kaggle Compettion. I was able to achieve a higher accurracy from our tutorial code by creating a train / dev / test system, and trialing different hyperparamets. Take a look for yourself!
 
 # Link this post with a project
-projects: [Personal Project]
+projects: [School Project]
 
 # Date published
 date: "2022-3-25T19:54:00Z"
@@ -37,8 +37,8 @@ tags:
 - ML
 
 categories:
-- Demo
-- Personal Project
+- School Project
+- Personal Favorite
 ---
 
 ## Overview
