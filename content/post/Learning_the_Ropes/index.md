@@ -57,19 +57,56 @@ I tested out the effects of numerous changes to my own code. Over adjusting the 
 
 ## PRETTY SLIDES AND GRAPHS AND STUFF (UPGRADE LATER TODAY)
 
-![featured5](https://user-images.githubusercontent.com/45409769/160456616-c41d9d0f-fdf2-4097-917a-1748b7dacadd.jpg)
+Results as of 3/24/2022:
 
+Accuracy of the network on the 864 dev images: 85 %
+
+Dev Accuracy for class: daisy is 80.8 %
+Dev Accuracy for class: dandelion is 86.9 %
+Dev Accuracy for class: rose  is 87.9 %
+Dev Accuracy for class: sunflower is 89.2 %
+Dev Accuracy for class: tulip is 84.2 %
+
+Accuracy of the network on the 1080 test images: 53 %
+
+Test Accuracy for class: daisy is 40.0 %
+Test Accuracy for class: dandelion is 61.6 %
+Test Accuracy for class: rose  is 48.9 %
+Test Accuracy for class: sunflower is 53.5 %
+Test Accuracy for class: tulip is 57.7 %
+
+Results as of 3/27/2022:
+
+Accuracy of the network on the 864 dev images: 98 %
+
+Dev Accuracy for class: daisy is 98.7 %
+Dev Accuracy for class: dandelion is 99.5 %
+Dev Accuracy for class: rose  is 98.8 %
+Dev Accuracy for class: sunflower is 98.6 %
+Dev Accuracy for class: tulip is 98.5 %
+
+Accuracy of the network on the 1080 test images: 97 %
+
+Test Accuracy for class: daisy is 97.1 %
+Test Accuracy for class: dandelion is 99.3 %
+Test Accuracy for class: rose  is 96.6 %
+Test Accuracy for class: sunflower is 95.1 %
+Test Accuracy for class: tulip is 96.2 %
 
 ## Contributions
 
- I will not be able to fully adding and swapping out the variables originally used within the creation of the decision trees. Additionally, I tested various random states, as well as number of estimators and depth of decision trees. I found that swapping out SibSp for Embarked, and noticed a flat increase of over 4% on its accuracy. Due to the incompleteness of several of the variables included in the training data, the inclusion of some attributes were limited due to the nature of the competition and my shortcomings in my knowledge. Both of these are appropriates areas of improvement.
 
-The original accuracy of my default transformation of all the photos was roughly . With my contributions, it was improved to 0.77751. This equated to a 4.78% increase in effectiveness.
+
+The original accuracy of my default transformation of all the photos was roughly .
 
 ## Sources
 
 Data for the Kaggle database was provided by [Alexander Mamaev](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition).
+
 Code for the NN was provided by [Pytorch](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py).
+
 Help loading images and understanding transformations. [Georgii Sirotenko](https://www.kaggle.com/code/georgiisirotenko/pytorch-flowers-translearing-ensemble-test-99-67).
+
 Pytorch documentation. [Pytorch](https://pytorch.org/vision/stable/auto_examples/plot_transforms.html#sphx-glr-auto-examples-plot-transforms-py).
+
 Website created using website templates released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
