@@ -62,17 +62,25 @@ Results as of 3/24/2022:
 Accuracy of the network on the 864 dev images: 85 %
 
 Dev Accuracy for class: daisy is 80.8 %
+
 Dev Accuracy for class: dandelion is 86.9 %
+
 Dev Accuracy for class: rose  is 87.9 %
+
 Dev Accuracy for class: sunflower is 89.2 %
+
 Dev Accuracy for class: tulip is 84.2 %
 
 Accuracy of the network on the 1080 test images: 53 %
 
 Test Accuracy for class: daisy is 40.0 %
+
 Test Accuracy for class: dandelion is 61.6 %
+
 Test Accuracy for class: rose  is 48.9 %
+
 Test Accuracy for class: sunflower is 53.5 %
+
 Test Accuracy for class: tulip is 57.7 %
 
 Results as of 3/27/2022:
@@ -80,17 +88,25 @@ Results as of 3/27/2022:
 Accuracy of the network on the 864 dev images: 98 %
 
 Dev Accuracy for class: daisy is 98.7 %
+
 Dev Accuracy for class: dandelion is 99.5 %
+
 Dev Accuracy for class: rose  is 98.8 %
+
 Dev Accuracy for class: sunflower is 98.6 %
+
 Dev Accuracy for class: tulip is 98.5 %
 
 Accuracy of the network on the 1080 test images: 97 %
 
 Test Accuracy for class: daisy is 97.1 %
+
 Test Accuracy for class: dandelion is 99.3 %
+
 Test Accuracy for class: rose  is 96.6 %
+
 Test Accuracy for class: sunflower is 95.1 %
+
 Test Accuracy for class: tulip is 96.2 %
 
 ## Contributions
