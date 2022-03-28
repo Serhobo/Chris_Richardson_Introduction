@@ -52,16 +52,13 @@ The basic premise of this project was to create an image classifer that could ac
 
 ## Process and Results
 
-I tested out the effects of numerous changes to my own code. Over adjusting the hyperparameters, playing with batch sizing, playing with various resizes of images, increases epoch, and generating additional test images using transformations all had various levels of benefits.
+I tested out the effects of numerous changes to my own code. Over adjusting the hyperparameters, playing with batch sizing, playing with various resizes of images, increases epoch, and generating additional test images using transformations all had various levels of benefits. I will not be able to fully demonstrate the effectiveness some of these had as this assignment was an extensive learning experience. If I were to repeat this assignment with my new knowledge, I would not follow my following procedure again. This is purely a reflection of the process.
 
-## PRETTY SLIDES AND GRAPHS AND STUFF
-# Featured image
-# Place an image named `featured5.jpg/png` in this page's folder and customize its options here.
-image:
-  caption: 'Image credit: [**3 Universities**](https://www.frontiersin.org/articles/10.3389/fpls.2021.618028/full)'
-  focal_point: ""
-  placement: 2
-  preview_only: false
+
+## PRETTY SLIDES AND GRAPHS AND STUFF (UPGRADE LATER TODAY)
+
+![featured5](https://user-images.githubusercontent.com/45409769/160456616-c41d9d0f-fdf2-4097-917a-1748b7dacadd.jpg)
+
 
 ## Contributions
 
@@ -71,5 +68,8 @@ The original accuracy of my default transformation of all the photos was roughly
 
 ## Sources
 
-Data and Code for the Kaggle competition was provided by [Kaggle](https://www.kaggle.com/c/titanic) itself.
+Data for the Kaggle database was provided by [Alexander Mamaev](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition).
+Code for the NN was provided by [Pytorch](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py).
+Help loading images and understanding transformations. [Georgii Sirotenko](https://www.kaggle.com/code/georgiisirotenko/pytorch-flowers-translearing-ensemble-test-99-67).
+Pytorch documentation. [Pytorch](https://pytorch.org/vision/stable/auto_examples/plot_transforms.html#sphx-glr-auto-examples-plot-transforms-py).
 Website created using website templates released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
