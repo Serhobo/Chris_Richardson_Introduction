@@ -110,6 +110,12 @@ Test Accuracy for class: tulip is 96.2 %
 
 After following the tutorial's coding process, my first step and first contribution to a reference was to change the input to the trainloader and testloader to the new Flower databser. I did not anticipate the level of difficulty this would present for the first time. After battling with a series of error codes, I looked through a few tutorials. I landed upon one in particular that satisified my code's error reports.
 
+At this point, I believed I was getting great results in interesting progress in my program. What I did not realize was that all of my test results until Friday, March 25th, 2022, were flawed. I was testing my network to images it may or may not have already seen. My initial choice to increase the training of the network, was to show it all images. This is fundamentally flawed and lead to infalted success at first. I implemented a new training/testing suggestion from my March 25th lecture with Professor Park. I separated out the images prior to any training into 3 separate datasets, train / dev / test. My results **TANKED** instantly. I was seeing accuracies as high as 99.5% prior to this, and was astonished at the ease I was experiencing. This new method pulled the wool from my eyes, and ignited a curiousity to refine this program properly. 
+
+My first set as a novice, was to over-tune the parameters to squeak out a few percentage point improvements for the entire Flower dataset. This was not only timeconsuming, but ultimately pointless. Each model, that was trained, would experience a different randomized training set. This meant that fine-tuning the parameters was probability based, and non repeatable improvment. 
+
+This lead me to trialing different ranges of epochs for running the training data through my model. 
+
 ## Contributions
 
 The original accuracy of my default transformation of all the photos was roughly 53%. This transformation was based off of copied code from the Pytorch tutorial and observations from Georgii Sirotenko's program. My contribution to both of these references was making them vaiably work together, as they conflicted originally. 
