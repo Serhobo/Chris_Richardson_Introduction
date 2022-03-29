@@ -116,6 +116,8 @@ My first set as a novice, was to over-tune the parameters to squeak out a few pe
 
 This lead me to trialing different ranges of epochs for running the training data through my model. I ran 5 varying tests of epoch magnitudes, prior to grasphing how to utlize the autographing functions available to me. My original results lead me to believe that anything after epoch = 30, would no longer provide a sufficent improvement. To cement this idea, I ran an epoch of 1000 that lasted roughly 15 hours. (Reading the documentation would have saved me so much time. :( ) After seeing the results the next afternoon, I realized everything I previously "learned" about my choice for an epoch was practically worthless. The only real information I learned was that every set of parameters. images, etc. has different Loss results and therefore diffrenet optimal epoch.
 
+Following the #Trials of the Epoch*, I 
+
 ## Contributions
 
 The original accuracy of my default transformation of all the photos was roughly 53%. This transformation was based off of copied code from the Pytorch tutorial and observations from Georgii Sirotenko's program. My contribution to both of these references was making them vaiably work together, as they conflicted originally. 
