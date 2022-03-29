@@ -52,12 +52,9 @@ The basic premise of this project was to create an image classifer that could ac
 
 ## Process and Results
 
-I tested out the effects of numerous changes to my own code. Over adjusting the hyperparameters, playing with batch sizing, playing with various resizes of images, increases epoch, and generating additional test images using transformations all had various levels of benefits. I will not be able to fully demonstrate the effectiveness some of these had as this assignment was an extensive learning experience. If I were to repeat this assignment with my new knowledge, I would not follow my following procedure again. This is purely a reflection of the process.
+I tested out the effects of numerous changes to my own code. Over adjusting the hyperparameters, playing with batch sizing, playing with various resizes of images, increases epoch, and generating additional test images using transformations all had various levels of benefits. I will not be able to fully demonstrate the effectiveness some of these had as this assignment was an extensive learning experience. If I were to repeat this assignment with my new knowledge, I would not follow my following procedure again. This is purely a reflection of the process I took.
 
-
-## PRETTY SLIDES AND GRAPHS AND STUFF (UPGRADE LATER TODAY)
-
-Results as of 3/24/2022:
+## Results as of 3/24/2022:
 
 Accuracy of the network on the 864 dev images: 85 %
 
@@ -83,7 +80,7 @@ Test Accuracy for class: sunflower is 53.5 %
 
 Test Accuracy for class: tulip is 57.7 %
 
-Results as of 3/27/2022:
+## Results as of 3/27/2022:
 
 Accuracy of the network on the 864 dev images: 98 %
 
@@ -109,11 +106,17 @@ Test Accuracy for class: sunflower is 95.1 %
 
 Test Accuracy for class: tulip is 96.2 %
 
+## Process
+
+After following the tutorial's coding process, my first step and first contribution to a reference was to change the input to the trainloader and testloader to the new Flower databser. I did not anticipate the level of difficulty this would present for the first time. After battling with a series of error codes, I looked through a few tutorials. I landed upon one in particular that satisified my code's error reports.
+
 ## Contributions
 
+The original accuracy of my default transformation of all the photos was roughly 53%. This transformation was based off of copied code from the Pytorch tutorial and observations from Georgii Sirotenko's program. My contribution to both of these references was making them vaiably work together, as they conflicted originally. 
 
+I was unaware of the ability to concat datasets included within Torch. I was made aware of this option through Georgii Sirotenko's program. This is a straight forward process, so my contributions were limited. I achieved incorporating all of my own datasets into this potion of code.
 
-The original accuracy of my default transformation of all the photos was roughly .
+While this is what all good programmers should do, I read the documentation for image manipulation within Pytorch. I selected all of my image transformations from this list in the library's documentation.
 
 ## Sources
 
