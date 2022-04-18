@@ -62,31 +62,11 @@ Dev Accuracy  : 57.33%
 
 ## Process
 
-UPDATE
-
-After following the tutorial's coding process, my first step and first contribution to a reference was to change the input to the trainloader and testloader to the new Flower databser. I did not anticipate the level of difficulty this would present for the first time. After battling with a series of error codes, I looked through a few tutorials. I landed upon one in particular that satisified my code's error reports.
-
-At this point, I believed I was getting great results in interesting progress in my program. What I did not realize was that all of my test results until Friday, March 25th, 2022, were flawed. I was testing my network to images it may or may not have already seen. My initial choice to increase the training of the network, was to show it all images. This is fundamentally flawed and lead to infalted success at first. I implemented a new training/testing suggestion from my March 25th lecture with Professor Park. I separated out the images prior to any training into 3 separate datasets, train / dev / test. My results **TANKED** instantly. I was seeing accuracies as high as 99.5% prior to this, and was astonished at the ease I was experiencing. This new method pulled the wool from my eyes, and ignited a curiousity to refine this program properly. 
-
-My first set as a novice, was to over-tune the parameters to squeak out a few percentage point improvements for the entire Flower dataset. This was not only timeconsuming, but ultimately pointless. Each model, that was trained, would experience a different randomized training set. This meant that fine-tuning the parameters was probability based, and non repeatable improvment. 
-
-This lead me to trialing different ranges of epochs for running the training data through my model. I ran 5 varying tests of epoch magnitudes, prior to grasphing how to utlize the autographing functions available to me. My original results lead me to believe that anything after epoch = 30, would no longer provide a sufficent improvement. To cement this idea, I ran an epoch of 1000 that lasted roughly 15 hours. After seeing the results the next afternoon, I realized everything I previously "learned" about my choice for an epoch was practically worthless. The only real information I learned was that every set of parameters. images, etc. has different Loss results and therefore diffrenet optimal epoch.
-
-UPDATE
+This process was less involved than the picture classifier. This is largely due to the concept sinking in with me less than the image one. The image program allowed for an easy visualization of the progress of analysizing the model. This text model is less intuitive, and therefore harder to program to.
 
 ## Contributions
 
 I combined the description and headline into one column to create additional data for the training model. I also renoved any hyperlink structuring and any non-alphabet chracter. Thie cleaned up text allowed me more information to train the model to.
-
-UPDATE
-
-The original accuracy of my default transformation of all the photos was roughly 53%. This transformation was based off of copied code from the Pytorch tutorial and observations from Georgii Sirotenko's program. My contribution to both of these references was making them vaiably work together, as they conflicted originally. 
-
-I was unaware of the ability to concat datasets included within Torch. I was made aware of this option through Georgii Sirotenko's program. This is a straight forward process, so my contributions were limited. I achieved incorporating all of my own datasets into this potion of code.
-
-While this is what all good programmers should do, I read the documentation for image manipulation within Pytorch. I selected all of my image transformations from this list in the library's documentation.
-
-UPDATE
 
 ## Sources
 
