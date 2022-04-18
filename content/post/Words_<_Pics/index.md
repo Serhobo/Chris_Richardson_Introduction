@@ -52,11 +52,7 @@ This project surrounds the idea of idenitifying articles based on their headline
 
 ## Process and Results
 
-UPDATE
-
-I tested out the effects of numerous changes to my own code. Over adjusting the hyperparameters, playing with batch sizing, playing with various resizes of images, increases epoch, and generating additional test images using transformations all had various levels of benefits. I will not be able to fully demonstrate the effectiveness some of these had as this assignment was an extensive learning experience. If I were to repeat this assignment with my new knowledge, I would not follow my following procedure again. This is purely a reflection of the process I took.
-
-UPDATE
+My first improvement was to include the short descirption into a combined column with the headline. This allowed for addition words that could be attached to the news categories. This led to the below results:
 
 ## Results as of 4/17/2022:
 
@@ -79,6 +75,8 @@ This lead me to trialing different ranges of epochs for running the training dat
 UPDATE
 
 ## Contributions
+
+I combined the description and headline into one column to create additional data for the training model. I also renoved any hyperlink structuring and any non-alphabet chracter. Thie cleaned up text allowed me more information to train the model to.
 
 UPDATE
 
