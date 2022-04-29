@@ -1,5 +1,5 @@
 ---
-title: Welcome back, I got you Flowers. I am over 98% certain.
+title: Welcome back, I got you Flowers. I am over 98% certain(Error present).
 subtitle: Please see the below link to my second contribution to a Kaggle Compettion. I was able to achieve a higher accurracy from our tutorial code by creating a train / dev / test system, and trialing different hyperparamets. Take a look for yourself!
 
 # Summary for listings and search engines
