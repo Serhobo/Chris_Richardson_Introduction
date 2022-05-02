@@ -1,5 +1,5 @@
 ---
-title: Do I take the Blue Berry or the Red Berry?
+title: Do I take the Blue Berry or the Red Berry?(Later parts of report being updated 5/2/22)
 subtitle: Unlike a popular movie series, I don't want to see how deep "the rabbithole" goes. I assume other people feel like me, especially when identifying plants on a hike, or camping trip. I attempt to tackle identifying common edible and harmful plants. Take a look for yourself!
 
 # Summary for listings and search engines
