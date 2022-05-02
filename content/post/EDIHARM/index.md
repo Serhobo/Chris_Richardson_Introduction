@@ -45,6 +45,11 @@ categories:
 
 https://github.com/Serhobo/Edible-or-Harmful/
 
+## Code History for the Project
+
+I did not track my project on Github, just on Kaggle.
+
+https://www.kaggle.com/code/richardsonchris/edible-or-harmful-take-2/notebook?scriptVersionId=94527750
 
 ## Overview of the Project
 
