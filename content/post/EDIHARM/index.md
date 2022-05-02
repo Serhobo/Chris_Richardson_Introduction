@@ -243,18 +243,35 @@ While these resutls are not much at this point, I am certain I have corrected th
   -Test Accuracy for class: wisteria is 23.08 %
   -Test Accuracy for class: Wood Sorrel is 15.38 %
 
+## Comparison of the Results
+
+![image](https://user-images.githubusercontent.com/45409769/166325766-44c33c86-8fc8-4fc3-81a6-9db41f14d4ef.png)
+
+Based on the accuracy I managed to achieve, I would state I have NOT achieved my goals. My accuracy for the previous image classifer was higher even after correcting my tainted testing data. I believe the sheer volume of classes harmed the accuracy to a far greater magnitude than I had envisioned. 
+
+The majority of this project became a experimentation on hyperparameter tuning as I familiarized myself more with the structure of a CNN. I spent over two days attempting to correct an unforeseen error that arose from my out_features not matching my total count of classes.  This forced me to perform a re-review of what each of the parameters in the model. However, I quickly became aware that I was, at most, going to achieve a +~10% to the accuracy. With each change, I meeked out marginal upgrades. This raised my accuracy at the time, 22% on Version 6 on Kaggle(https://www.kaggle.com/code/richardsonchris/edible-or-harmful-take-2/notebook), up to 33% on Version 14. I expected this to be more fruitful, as I experience a much greater gain during the first image classifer program. This has lead me to my new hypothesis that my dataset is at fault.
+
+![image](https://user-images.githubusercontent.com/45409769/166331774-b0bb1501-7287-4dd5-b729-f2c608cac44c.png)
+
+As seen above, the loss for the training of my most recent model. Due to my experimentation with batch sizes, I do not have any comparable data to the final batch size I ended up choosing, 128. I could continue to seek out the final improvements that the trend line estimates. But at 8787.8 seconds to run the program, I was running out of time to finish this by the deadline for this project. 
 
 ## Future Considerations
 
 Due to the importance of nailing done the model prior to adding the additional functionalities, the stretch goal of adding a video feed to identify the plant has been placed on hold. 
 
+The datasets for each plant needs to be reviewed for photos that would be considered bad training data, such as photos of canned versions of the plant. Also, a breakdown of the visual similarities of plants should be taken into account. I could increase the accuracy of the total model if I grouped look-a-like plants into the same plant family class.  As my program seeks out to identify if a plant is harmful or edible, combining plant classes into super classes would be well within the program's scope.
+
 ## Contributions
 
-The original code comes from the Pytorch tutorial and observations from various pytorch documentations. My contribution from this original code is substanstial. I have implemented it to an entirely new dataset, creates test, validation, and train folders, and changed all of the parameters. A warning handler was copied from a stack overflow question as it is only 2 lines and directly addresses my problem.
+The original code comes from the Pytorch tutorial and observations from various pytorch documentations. My contribution from this original code is substanstial. I have implemented it to an entirely new dataset, created test, validation, and train folders, changed all of the parameters, and switched out the optimizer for a more efficient model. 
+
+A warning handler was copied from a stack overflow question as it is only 2 lines and directly addresses my problem. I switched ou
 
 I combined three different databases into one larger one to expand the use of this model. The three databases can be found below.
 
 While this is what all good programmers should do, I read the documentation for image manipulation within Pytorch. I selected all of my image transformations from this list in the library's documentation.
+
+
 
 ## Sources
 
