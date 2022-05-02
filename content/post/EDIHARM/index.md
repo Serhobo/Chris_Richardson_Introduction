@@ -23,7 +23,7 @@ featured: true
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**The Scariest Things**](https://scariesthings.com/2019/04/26/happy-arbor-day-fifteen-killer-plant-movies-you-know-they-have-it-in-for-us-right/)'
+  caption: 'Image credit: [**Little Shop of Horrors**](https://scariesthings.com/2019/04/26/happy-arbor-day-fifteen-killer-plant-movies-you-know-they-have-it-in-for-us-right/)'
   focal_point: ""
   placement: 2
   preview_only: false
