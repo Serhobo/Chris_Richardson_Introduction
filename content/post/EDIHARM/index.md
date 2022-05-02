@@ -48,37 +48,104 @@ https://github.com/Serhobo/Image-Identifier
 
 ## Overview of the Project
 
-The basic premise of this project was to create an image classifer that could accurately classify 5 different types of flowers from a supplied database. We are given code by a **PyTorch** tutorial called **Training a Classifier**. Using the majority of this code as a building block, I created an image classifier that could accurately pick out the 5 types of flowers at approximately **98.4%**. In decreasing order of significance of the reference in my code, I used the code from the Pytorch tutorial, another neural network program, and the pytorch documentation as references. 
+The idea for this task came about after a converstation I had with a coworker.  In a passing comment, he complained about why didn't one already exist. My last image classifer had only 5 image classes, so expanding it to 86 species of plants provided a wide range of complications. The first issue and toughest one, personally, was finding out my last image classifer's testing data was tainted and inflated my results. Transformed versions of the test images were included in my training dataset. I started this program based off my previous image classifer, so old sources are still relevant, as well as contributions to them.
 
 ## Process and Results
 
-I tested out the effects of numerous changes to my own code. Over adjusting the hyperparameters, playing with batch sizing, playing with various resizes of images, increases epoch, and generating additional test images using transformations all had various levels of benefits. I will not be able to fully demonstrate the effectiveness some of these had as this assignment was an extensive learning experience. If I were to repeat this assignment with my new knowledge, I would not follow my following procedure again. This is purely a reflection of the process I took.
+The first step in my process was to clean up legacy code and markdowns with knowledge I did not posess at the time of that project. Examples of this include, but not limited to, deleting sections of commented out code, markdowns with erroneous data, and shortening lines of code. With the basic housekeeping completed, I quickly located where I dragged in the testing images on accident. However, with the way the dataset was constructed in the previous challenge, I was not aware of a way to properly prevent this. However, with the next step of the project, I could correct this issue by building my dataset in the structure I desired.
+  I combined three separate datasets I found on Kaggle. They are as follows: Wild Edible Plants (https://www.kaggle.com/datasets/ryanpartridge01/wild-edible-plants), Wild Edible Plants (https://www.kaggle.com/datasets/gverzea/edible-wild-plants) and Poisonous Plants Images (https://www.kaggle.com/datasets/nitron/poisonous-plants-images). I combined all of these into one larger set of images, verified that the testing images were not resused in the training or validation, and loaded it at https://www.kaggle.com/datasets/richardsonchris/edible-or-harmful-plant-dataset.
 
-## Results as of 3/24/2022:
+## Results as of 4/29/2022 (9:00 PM and only non-transformed training images):
 
-Accuracy of the network on the 864 dev images: 85 %
+Accuracy of the network on the 496 test images: 8 %
+Test Accuracy for class: Alfalfa is 20.0 %
+Test Accuracy for class: Allium is 0.0 %
+Test Accuracy for class: Asparagus is 0.0 %
+Test Accuracy for class: Blue Vervain is 0.0 %
+Test Accuracy for class: Borage is 0.0 %
+Test Accuracy for class: Broadleaf Plantain is 0.0 %
+Test Accuracy for class: Bull Thistle is 0.0 %
+Test Accuracy for class: Burdock is 0.0 %
+Test Accuracy for class: Calendula is 40.0 %
+Test Accuracy for class: castor_oil_plant is 40.0 %
+Test Accuracy for class: Cattail is 60.0 %
+Test Accuracy for class: Chickweed is 60.0 %
+Test Accuracy for class: Chicory is 0.0 %
+Test Accuracy for class: Chive Blossom is 0.0 %
+Test Accuracy for class: Cleavers is 0.0 %
+Test Accuracy for class: Coltsfoot is 0.0 %
+Test Accuracy for class: Common Mallow is 0.0 %
+Test Accuracy for class: Common Milkweed is 0.0 %
+Test Accuracy for class: Common Sow Thistle is 0.0 %
+Test Accuracy for class: Common Vetch is 40.0 %
+Test Accuracy for class: Common Yarrow is 20.0 %
+Test Accuracy for class: Coneflower is 20.0 %
+Test Accuracy for class: Cow Parsley is 0.0 %
+Test Accuracy for class: Cowslip is 0.0 %
+Test Accuracy for class: Creeping Charlie is 40.0 %
+Test Accuracy for class: Crimson Clover is 20.0 %
+Test Accuracy for class: Crithmum Maritimum is 0.0 %
+Test Accuracy for class: Curly Dock is 60.0 %
+Test Accuracy for class: Daisy Fleabane is 80.0 %
+Test Accuracy for class: Dandellion is 0.0 %
+Test Accuracy for class: dieffenbachia is 0.0 %
+Test Accuracy for class: Downy Yellow Violet is 0.0 %
+Test Accuracy for class: Elderberry is 0.0 %
+Test Accuracy for class: Evening Primrose is 0.0 %
+Test Accuracy for class: Fennel is 0.0 %
+Test Accuracy for class: Fern Leaf Yarrow is 0.0 %
+Test Accuracy for class: Field Pennycress is 0.0 %
+Test Accuracy for class: Fireweed is 60.0 %
+Test Accuracy for class: Forget Me Not is 60.0 %
+Test Accuracy for class: foxglove is 0.0 %
+Test Accuracy for class: Gardenia is 0.0 %
+Test Accuracy for class: Garlic Mustard is 0.0 %
+Test Accuracy for class: Geranium is 0.0 %
+Test Accuracy for class: Ground Ivy is 0.0 %
+Test Accuracy for class: Harebell is 0.0 %
+Test Accuracy for class: Henbit is 0.0 %
+Test Accuracy for class: Herb Robert is 40.0 %
+Test Accuracy for class: Japanese Knotweed is 0.0 %
+Test Accuracy for class: Joe Pye Weed is 0.0 %
+Test Accuracy for class: Knapweed is 0.0 %
+Test Accuracy for class: Kudzu is 0.0 %
+Test Accuracy for class: Lambs Quarters is 40.0 %
+Test Accuracy for class: lilies is 0.0 %
+Test Accuracy for class: lily_of_the_valley is 20.0 %
+Test Accuracy for class: Mallow is 0.0 %
+Test Accuracy for class: Mayapple is 0.0 %
+Test Accuracy for class: Meadowsweet is 0.0 %
+Test Accuracy for class: Milk Thistle is 0.0 %
+Test Accuracy for class: Mullein is 0.0 %
+Test Accuracy for class: New England Aster is 0.0 %
+Test Accuracy for class: oleander is 0.0 %
+Test Accuracy for class: Partridgeberry is 0.0 %
+Test Accuracy for class: Peppergrass is 0.0 %
+Test Accuracy for class: Pickerelweed is 20.0 %
+Test Accuracy for class: Pineapple Weed is 0.0 %
+Test Accuracy for class: Prickly Pear Cactus is 0.0 %
+Test Accuracy for class: Purple Deadnettle is 0.0 %
+Test Accuracy for class: Queen Annes Lace is 60.0 %
+Test Accuracy for class: Ramsons is 0.0 %
+Test Accuracy for class: Red Clover is 0.0 %
+Test Accuracy for class: rhubarb is 0.0 %
+Test Accuracy for class: Sheep Sorrel is 0.0 %
+Test Accuracy for class: Shepherds Purse is 0.0 %
+Test Accuracy for class: Spring Beauty is 0.0 %
+Test Accuracy for class: Sunflower is 20.0 %
+Test Accuracy for class: Supplejack Vine is 0.0 %
+Test Accuracy for class: Tea Plant is 0.0 %
+Test Accuracy for class: Teasel is 0.0 %
+Test Accuracy for class: Toothwort is 0.0 %
+Test Accuracy for class: Vervian Mallow is 0.0 %
+Test Accuracy for class: Wild Bee Balm is 0.0 %
+Test Accuracy for class: Wild Black Cherry is 0.0 %
+Test Accuracy for class: Wild Grape Vine is 0.0 %
+Test Accuracy for class: Wild Leek is 0.0 %
+Test Accuracy for class: wisteria is 0.0 %
+Test Accuracy for class: Wood Sorrel is 0.0 %
 
-Dev Accuracy for class: daisy is 80.8 %
-
-Dev Accuracy for class: dandelion is 86.9 %
-
-Dev Accuracy for class: rose  is 87.9 %
-
-Dev Accuracy for class: sunflower is 89.2 %
-
-Dev Accuracy for class: tulip is 84.2 %
-
-Accuracy of the network on the 1080 test images: 53 %
-
-Test Accuracy for class: daisy is 40.0 %
-
-Test Accuracy for class: dandelion is 61.6 %
-
-Test Accuracy for class: rose  is 48.9 %
-
-Test Accuracy for class: sunflower is 53.5 %
-
-Test Accuracy for class: tulip is 57.7 %
+While these resutls are not much at this point, I am certain I have corrected the issue of a tainted testing data. 
 
 ## Results as of 3/27/2022:
 
@@ -108,13 +175,7 @@ Test Accuracy for class: tulip is 96.2 %
 
 ## Process
 
-After following the tutorial's coding process, my first step and first contribution to a reference was to change the input to the trainloader and testloader to the new Flower databser. I did not anticipate the level of difficulty this would present for the first time. After battling with a series of error codes, I looked through a few tutorials. I landed upon one in particular that satisified my code's error reports.
 
-At this point, I believed I was getting great results in interesting progress in my program. What I did not realize was that all of my test results until Friday, March 25th, 2022, were flawed. I was testing my network to images it may or may not have already seen. My initial choice to increase the training of the network, was to show it all images. This is fundamentally flawed and lead to infalted success at first. I implemented a new training/testing suggestion from my March 25th lecture with Professor Park. I separated out the images prior to any training into 3 separate datasets, train / dev / test. My results **TANKED** instantly. I was seeing accuracies as high as 99.5% prior to this, and was astonished at the ease I was experiencing. This new method pulled the wool from my eyes, and ignited a curiousity to refine this program properly. 
-
-My first set as a novice, was to over-tune the parameters to squeak out a few percentage point improvements for the entire Flower dataset. This was not only timeconsuming, but ultimately pointless. Each model, that was trained, would experience a different randomized training set. This meant that fine-tuning the parameters was probability based, and non repeatable improvment. 
-
-This lead me to trialing different ranges of epochs for running the training data through my model. I ran 5 varying tests of epoch magnitudes, prior to grasphing how to utlize the autographing functions available to me. My original results lead me to believe that anything after epoch = 30, would no longer provide a sufficent improvement. To cement this idea, I ran an epoch of 1000 that lasted roughly 15 hours. After seeing the results the next afternoon, I realized everything I previously "learned" about my choice for an epoch was practically worthless. The only real information I learned was that every set of parameters. images, etc. has different Loss results and therefore diffrenet optimal epoch.
 
 ## Contributions
 
@@ -126,11 +187,7 @@ While this is what all good programmers should do, I read the documentation for 
 
 ## Sources
 
-Data for the Kaggle database was provided by [Alexander Mamaev](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition).
-
 Code for the NN was provided by [Pytorch](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py).
-
-Help loading images and understanding transformations. [Georgii Sirotenko](https://www.kaggle.com/code/georgiisirotenko/pytorch-flowers-translearing-ensemble-test-99-67).
 
 Pytorch documentation. [Pytorch](https://pytorch.org/vision/stable/auto_examples/plot_transforms.html#sphx-glr-auto-examples-plot-transforms-py).
 
