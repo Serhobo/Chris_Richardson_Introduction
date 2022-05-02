@@ -56,7 +56,7 @@ The first step in my process was to clean up legacy code and markdowns with know
 
   I combined three separate datasets I found on Kaggle. They are as follows: Wild Edible Plants (https://www.kaggle.com/datasets/ryanpartridge01/wild-edible-plants), Edible Wild Plants (https://www.kaggle.com/datasets/gverzea/edible-wild-plants) and Poisonous Plants Images (https://www.kaggle.com/datasets/nitron/poisonous-plants-images). I combined all of these into one larger set of images, verified that the testing images were not resused in the training or validation, and loaded it at https://www.kaggle.com/datasets/richardsonchris/edible-or-harmful-plant-dataset.
 
-## Results as of 4/29/2022 (9:00 PM and only non-transformed training images):
+## Results as of 4/29/2022 (only non-transformed training images):
 
   #Accuracy of the network on the 496 test images: 8 %
   
@@ -153,53 +153,52 @@ While these resutls are not much at this point, I am certain I have corrected th
 
   #Accuracy of the network on the 491 test images: 31.00 %
   
-  Test Accuracy for class: Alfalfa is 40.00 %
-  Test Accuracy for class: Allium is 20.00 %
-  Test Accuracy for class: Blue Vervain is 20.00 %
-  Test Accuracy for class: Borage is 40.00 %
-  Test Accuracy for class: Broadleaf Plantain is 20.00 %
-  Test Accuracy for class: Bull Thistle is 0.00 %
-  Test Accuracy for class: Burdock is 80.00 %
-  Test Accuracy for class: Calendula is 60.00 %
-  Test Accuracy for class: castor_oil_plant is 100.00 %
-  Test Accuracy for class: Cattail is 20.00 %
-  Test Accuracy for class: Chickweed is 60.00 %
-  Test Accuracy for class: Chicory is 0.00 %
-  Test Accuracy for class: Chive Blossom is 0.00 %
-  Test Accuracy for class: Cleavers is 60.00 %
-  Test Accuracy for class: Coltsfoot is 60.00 %
-  Test Accuracy for class: Common Mallow is 80.00 %
-  Test Accuracy for class: Common Milkweed is 0.00 %
-  Test Accuracy for class: Common Sow Thistle is 80.00 %
-  Test Accuracy for class: Common Vetch is 20.00 %
-  Test Accuracy for class: Common Yarrow is 80.00 %
-  Test Accuracy for class: Coneflower is 20.00 %
-  Test Accuracy for class: Cow Parsley is 40.00 %
-  Test Accuracy for class: Cowslip is 0.00 %
-  Test Accuracy for class: Creeping Charlie is 80.00 %
-  Test Accuracy for class: Crimson Clover is 40.00 %
-  Test Accuracy for class: Crithmum Maritimum is 20.00 %
-  Test Accuracy for class: Curly Dock is 80.00 %
-  Test Accuracy for class: Daisy Fleabane is 80.00 %
-  Test Accuracy for class: Dandellion is 20.00 %
-  Test Accuracy for class: dieffenbachia is 20.00 %
-  Test Accuracy for class: Downy Yellow Violet is 0.00 %
-  Test Accuracy for class: Elderberry is 100.00 %
-  Test Accuracy for class: Evening Primrose is 60.00 %
-  Test Accuracy for class: Fennel is 0.00 %
-  Test Accuracy for class: Fern Leaf Yarrow is 60.00 %
-  Test Accuracy for class: Field Pennycress is 40.00 %
-  Test Accuracy for class: Fireweed is 100.00 %
-  Test Accuracy for class: Forget Me Not is 20.00 %
-  Test Accuracy for class: foxglove is 100.00 %
-  Test Accuracy for class: Gardenia is 100.00 %
-  Test Accuracy for class: Garlic Mustard is 40.00 %
-  Test Accuracy for class: Geranium is 100.00 %
-  Test Accuracy for class: Ground Ivy is 0.00 %
-  Test Accuracy for class: Harebell is 40.00 %
-  Test Accuracy for class: Henbit is 20.00 %
-  Test Accuracy for class: Herb Robert is 60.00 %
-  Test Accuracy for class: Japanese Knotweed is 0.00 %
+  *Test Accuracy for class: Alfalfa is 40.00 %
+  *Test Accuracy for class: Allium is 20.00 %
+  *Test Accuracy for class: Blue Vervain is 20.00 %
+  *Test Accuracy for class: Borage is 40.00 %
+  *Test Accuracy for class: Broadleaf Plantain is 20.00 %
+  *Test Accuracy for class: Bull Thistle is 0.00 %
+  *Test Accuracy for class: Burdock is 80.00 %
+  *Test Accuracy for class: Calendula is 60.00 %
+  *Test Accuracy for class: castor_oil_plant is 100.00 %
+  *Test Accuracy for class: Cattail is 20.00 %
+  *Test Accuracy for class: Chickweed is 60.00 %
+  *Test Accuracy for class: Chicory is 0.00 %
+  *Test Accuracy for class: Chive Blossom is 0.00 %
+  *Test Accuracy for class: Cleavers is 60.00 %
+  *Test Accuracy for class: Coltsfoot is 60.00 %
+  *Test Accuracy for class: Common Mallow is 80.00 %
+  *Test Accuracy for class: Common Milkweed is 0.00 %
+  *Test Accuracy for class: Common Sow Thistle is 80.00 %
+  *Test Accuracy for class: Common Vetch is 20.00 %
+  *Test Accuracy for class: Common Yarrow is 80.00 %
+  *Test Accuracy for class: Coneflower is 20.00 %
+  *Test Accuracy for class: Cowslip is 0.00 %
+  *Test Accuracy for class: Creeping Charlie is 80.00 %
+  *Test Accuracy for class: Crimson Clover is 40.00 %
+  *Test Accuracy for class: Crithmum Maritimum is 20.00 %
+  *Test Accuracy for class: Curly Dock is 80.00 %
+  *Test Accuracy for class: Daisy Fleabane is 80.00 %
+  *Test Accuracy for class: Dandellion is 20.00 %
+  *Test Accuracy for class: dieffenbachia is 20.00 %
+  *Test Accuracy for class: Downy Yellow Violet is 0.00 %
+  *Test Accuracy for class: Elderberry is 100.00 %
+  *Test Accuracy for class: Evening Primrose is 60.00 %
+  *Test Accuracy for class: Fennel is 0.00 %
+  *Test Accuracy for class: Fern Leaf Yarrow is 60.00 %
+  *Test Accuracy for class: Field Pennycress is 40.00 %
+  *Test Accuracy for class: Fireweed is 100.00 %
+  *Test Accuracy for class: Forget Me Not is 20.00 %
+  *Test Accuracy for class: foxglove is 100.00 %
+  *Test Accuracy for class: Gardenia is 100.00 %
+  *Test Accuracy for class: Garlic Mustard is 40.00 %
+  *Test Accuracy for class: Geranium is 100.00 %
+  *Test Accuracy for class: Ground Ivy is 0.00 %
+  *Test Accuracy for class: Harebell is 40.00 %
+  *Test Accuracy for class: Henbit is 20.00 %
+  *Test Accuracy for class: Herb Robert is 60.00 %
+  *Test Accuracy for class: Japanese Knotweed is 0.00 %
   Test Accuracy for class: Joe Pye Weed is 20.00 %
   Test Accuracy for class: Knapweed is 0.00 %
   Test Accuracy for class: Kudzu is 60.00 %
@@ -238,7 +237,6 @@ While these resutls are not much at this point, I am certain I have corrected th
   Test Accuracy for class: Wild Leek is 21.43 %
   Test Accuracy for class: wisteria is 23.08 %
   Test Accuracy for class: Wood Sorrel is 15.38 %
-
 
 
 ## Future Considerations
