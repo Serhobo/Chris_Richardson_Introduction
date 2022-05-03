@@ -1,5 +1,5 @@
 ---
-title: Do I take the Blue Berry or the Red Berry?(Later parts of report being updated 5/2/22)
+title: Do I take the Blue Berry or the Red Berry?
 subtitle: Unlike a popular movie series, I don't want to see how deep "the rabbithole" goes. I assume other people feel like me, especially when identifying plants on a hike, or camping trip. I attempt to tackle identifying common edible and harmful plants. Take a look for yourself!
 
 # Summary for listings and search engines
@@ -247,7 +247,7 @@ While these resutls are not much at this point, I am certain I have corrected th
 
 ![image](https://user-images.githubusercontent.com/45409769/166325766-44c33c86-8fc8-4fc3-81a6-9db41f14d4ef.png)
 
-Based on the accuracy I managed to achieve, I would state I have NOT achieved my goals. My accuracy for the previous image classifer was higher even after correcting my tainted testing data. I believe the sheer volume of classes harmed the accuracy to a far greater magnitude than I had envisioned. 
+Based on the accuracy I achieved, I would state I have NOT achieved my goal, and that is highly disappointing. My accuracy for the previous image classifer was higher even after correcting my tainted testing data. I believe the sheer volume of classes harmed the accuracy to a far greater magnitude than I had envisioned. 
 
 The majority of this project became a experimentation on hyperparameter tuning as I familiarized myself more with the structure of a CNN. I spent over two days attempting to correct an unforeseen error that arose from my out_features not matching my total count of classes.  This forced me to perform a re-review of what each of the parameters in the model. However, I quickly became aware that I was, at most, going to achieve a +~10% to the accuracy. With each change, I meeked out marginal upgrades. This raised my accuracy at the time, 22% on Version 6 on Kaggle(https://www.kaggle.com/code/richardsonchris/edible-or-harmful-take-2/notebook), up to 33% on Version 14. I expected this to be more fruitful, as I experience a much greater gain during the first image classifer program. This has lead me to my new hypothesis that my dataset is at fault.
 
@@ -270,8 +270,6 @@ A warning handler was copied from a stack overflow question as it is only 2 line
 I combined three different databases into one larger one to expand the use of this model. The three databases can be found below.
 
 While this is what all good programmers should do, I read the documentation for image manipulation within Pytorch. I selected all of my image transformations from this list in the library's documentation.
-
-
 
 ## Sources
 
